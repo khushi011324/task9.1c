@@ -1,0 +1,51 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7f6565;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Styles for the left section */
+.left-section {
+  flex: 1; /* Take up available space in the left section */
+}
+
+/* Styles for the "DevDeakin" logo */
+.logo {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Styles for the right section */
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the search input */
+.search-input {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+
+/* Styles for the navigation links */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Style for the navigation links on hover */
+.nav-links a:hover {
+  color: #ddd;
+}
